@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Device gestures panel -->
+    <string name="screen_gestures_panel_title">Gestures</string>
+    <!-- Touchscreen gesture haptic feedback -->
+    <string name="touchscreen_gesture_extras">Extras</string>
+    <string name="touchscreen_gesture_haptic_feedback">Haptic feedback</string>
+    <string name="touchscreen_gesture_haptic_feedback_summary">Vibrate when a touchscreen gesture is detected</string>
+    <!-- Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
+    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+    <string name="gesture_display_title">Screen off gestures</string>
+    <string name="touchscreen_c_gesture_title">Camera</string>
+    <string name="touchscreen_c_gesture_summary">Draw a \"C\" to activate camera</string>
+    <string name="touchscreen_e_gesture_title">Email</string>
+    <string name="touchscreen_e_gesture_summary">Draw an \"e\" to open the email app</string>
+    <string name="touchscreen_m_gesture_title">Messaging</string>
+    <string name="touchscreen_m_gesture_summary">Draw a \"M\" to open the messaging app</string>
+    <string name="touchscreen_s_gesture_title">Messaging</string>
+    <string name="touchscreen_s_gesture_summary">Draw an \"S\" to open the messaging app</string>
+    <string name="touchscreen_v_gesture_title">Dialer</string>
+    <string name="touchscreen_v_gesture_summary">Draw a \"V\" to open the dialer app</string>
+    <string name="touchscreen_w_gesture_title">Browser</string>
+    <string name="touchscreen_w_gesture_summary">Draw a \"W\" to open the browser app</string>
+    <string name="touchscreen_z_gesture_title">Flashlight</string>
+    <string name="touchscreen_z_gesture_summary">Draw a \"Z\" to toggle flashlight</string>
+    <string name="touchscreen_flashlight_gesture_title">Flashlight</string>
+    <string name="touchscreen_flashlight_gesture_summary">Draw a circle to toggle flashlight</string>
+    <string name="touchscreen_music_gesture_title">Music</string>
+    <string name="touchscreen_music_gesture_summary">Use gestures to control music playback \n
+    • Swipe down to play/pause\n
+    • Swipe left for previous track\n
+    • Swipe right for next track</string>
+    <string name="touchscreen_swipe_up_title">Swipe up</string>
+    <string name="touchscreen_swipe_right_title">Swipe right</string>
+    <string name="touchscreen_swipe_down_title">Swipe down</string>
+    <string name="touchscreen_swipe_left_title">Swipe left</string>
+</resources>
