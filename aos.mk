@@ -15,7 +15,7 @@
 $(call inherit-product, device/yu/tomato/full_tomato.mk)
 
 # Inherit some commonAOS stuff.
-$(call inherit-product, vendor/aos/config/common.mk)
+$(call inherit-product, vendor/aos/config/common_full_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
