@@ -43,3 +43,7 @@ PRODUCT_COPY_FILES +=\
  $(LOCAL_PATH)/yl_params/extra/lib/arm/libbass_fx.so:/system/app/MusicPlayer/lib/arm/libbass_fx.so \
  $(LOCAL_PATH)/yl_params/extra/lib/arm/libbassmix.so:/system/app/MusicPlayer/lib/arm/libbassmix.so \
  $(LOCAL_PATH)/yl_params/extra/lib/arm/libbass_aac.so:/system/app/MusicPlayer/lib/arm/libbass_aac.so
+
+# Healthd packages
+PRODUCT_PACKAGES += \
+charger_res_images
