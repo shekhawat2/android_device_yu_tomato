@@ -224,39 +224,33 @@
          in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
 
-    <!-- Enable doze mode
-         ComponentName of a dream to show whenever the system would otherwise have gone to sleep. -->
-    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <bool name="config_enableKeyHandler">true</bool>
 
-    <!-- Screen brightness used to dim the screen while dozing in a very low power state.
-         May be less than the minimum allowed brightness setting
-         that can be set by the user. -->
-    <integer name="config_screenBrightnessDoze">10</integer>
+    <!-- Keycodes of gestures. If the gesture is not supported set it to 0. -->
+    <integer name="config_drawOKeyCode">253</integer>
+    <integer name="config_drawWKeyCode">0</integer>
+    <integer name="config_drawMKeyCode">0</integer>
+    <integer name="config_oneFingerSwipeRightKeyCode">251</integer>
+    <integer name="config_oneFingerSwipeLeftKeyCode">250</integer>
+    <integer name="config_oneFingerSwipeDownKeyCode">249</integer>
+    <integer name="config_oneFingerSwipeUpKeyCode">254</integer>
 
-    <!-- If true, the doze component is not started until after the screen has been
-          turned off and the screen off animation has been performed. -->
-    <bool name="config_dozeAfterScreenOff">true</bool>
+    <!-- Default settings for gestures
+            0 - Disabled
+            1 - Wake device
+            2 - Toggle flashlight
+            3 - Toggle airplane mode
+            4 - Play/Pause music
+            5 - Next music
+            6 - Previous music
+            7 - Open camera
+            8 - Open dialer -->
 
-    <!-- Power Management: Specifies whether to decouple the interactive state of the
-         device from the display on/off state.
-         When false, setInteractive(..., true) will be called before the display is turned on
-         and setInteractive(..., false) will be called after the display is turned off.
-         This mode provides best compatibility for devices that expect the interactive
-         state to be tied to the display state.
-         When true, setInteractive(...) will be called independently of whether the display
-         is being turned on or off.  This mode enables the power manager to reduce
-         clocks and disable the touch controller while the display is on.
-         This resource should be set to "true" when a doze component has been specified
-         to maximize power savings but not all devices support it.
-         Refer to power.h for details. -->
-    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
-
-    <!-- Set this to true to enable the platform's auto-power-save modes like doze and
-         app standby.  These are not enabled by default because they require a standard
-         cloud-to-device messaging service for apps to interact correctly with the modes
-         (such as to be able to deliver an instant message to the device even when it is
-         dozing).  This should be enabled if you have such services and expect apps to
-         correctly use them when installed on your device.  Otherwise, keep this disabled
-         so that applications can still use their own mechanisms. -->
-    <bool name="config_enableAutoPowerModes">true</bool>
+    <integer name="config_drawODefault">2</integer>
+    <integer name="config_drawMDefault">7</integer>
+    <integer name="config_drawWDefault">7</integer>
+    <integer name="config_oneFingerSwipeUpDefault">8</integer>
+    <integer name="config_oneFingerSwipeRightDefault">6</integer>
+    <integer name="config_oneFingerSwipeDownDefault">4</integer>
+    <integer name="config_oneFingerSwipeLeftDefault">5</integer>
 </resources>
