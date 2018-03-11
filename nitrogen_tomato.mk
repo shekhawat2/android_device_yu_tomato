@@ -17,6 +17,9 @@ $(call inherit-product, device/yu/tomato/full_tomato.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/nitrogen/products/common.mk)
 
+# PixelStyle
+$(call inherit-product, vendor/pixelstyle/config.mk)
+
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
 
